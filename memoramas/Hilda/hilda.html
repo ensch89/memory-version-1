@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Juana Memoramas</title>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet'>
+		<link href="http://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css" >
+		<link rel="stylesheet" href="css/bootstrap.css" />
+        		<link rel="stylesheet" href="css/animate.css" />
+
+	</head>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">        
+        <center>        <div class="container ">
+            
+            <div id="timer" classe=".col-md-3 .col-md-offset-3">
+			
+               <h2 >Tiempo: <span class="label label-danger animated flash" id="elapsed-time" >00:00</span></h2>              
+            </div>
+           </center>
+
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+
+    <center>
+    
+		
+		<section id="game" >
+			<div id="cards">
+				<div class="card animated zoomIn">
+					<div class="face front"></div>
+					<div class="face back"></div>
+				</div>
+			</div>
+		</section>
+        <hr>
+              <a class="btn btn-primary" href="index.html" role="button"><h4>Finalizar juego </h4></a>
+</center>
+    
+		<section id="popup" class="hide">
+			<div id="popup-bg"></div>
+			<div id="popup-box" class="col-sm-6">
+				<!--<div class="ribbon hide">
+					<div class="ribbon-body col-sm-6">
+						<span>Nuevo record</span>
+					</div>
+					<div class="triangle"></div>
+				</div>
+                -->
+				<div id="popup-box-content">
+					<h3>Felicidades haz terminado el juego!</h3>
+					<p>Tu tiempo:</p>
+					<p><span class='score'>13</span><h3>Minutos</h3></p>
+					<p>
+						<small>
+							<!--
+                            Último record: <span class='last-score'>20</span><br>
+                            -->
+							<span class='saved-time'>13/4/2011 15:15:15</span>
+						</small>
+					</p>
+                <a class="btn btn-danger col-sm-12" href="index.html" role="button"><h2>Teminar juego</h2></a>
+				</div>
+			</div>
+		</section>
+	
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="js/memory-matching.js"></script>
+		</script>
+	</body>
+</html>
